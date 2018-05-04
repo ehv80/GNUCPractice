@@ -37,6 +37,6 @@ main()
 	while ( getchar() != EOF )	// != operador de comparación "no igual a" "distinto de"
 	{
 		++nc;
-		printf("\nCantidad de caracteres ingresados: %ld\n", nc);
 	}
+	printf("\nCantidad de caracteres ingresados: %ld\n", nc);
 }
