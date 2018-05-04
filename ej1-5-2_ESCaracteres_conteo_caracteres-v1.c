@@ -39,4 +39,5 @@ main()
 		++nc;
 	}
 	printf("\nCantidad de caracteres ingresados: %ld\n", nc);
+	// Para poder ver la cantidad de caracteres al ejecutar, presionar la combinación de teclas [Ctrl] + [d]
 }
