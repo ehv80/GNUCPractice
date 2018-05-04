@@ -46,4 +46,5 @@ main()
 	*  tanto para los tipos de datos float como double; 
 	*  %.0f		suprime la impresión de la coma (punto decimal) y de la parte fraccionaria, que es cero
 	*/
+	// Para poder ver la cantidad de caracteres al ejecutar, presionar la combinación de teclas [Ctrl] + [d]
 }
