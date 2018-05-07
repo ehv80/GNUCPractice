@@ -4,7 +4,7 @@
    del Libro del Lenguaje de Programación C, pag. 23
 
    Cuenta el número de ocurrencias de cada dígito (entre 0 y 9), 
-   de cada caracter espaciador, ya se:
+   de cada caracter espaciador, ya sea:
 	caracter de espacio en blanco	' '
 	caracter de tabulación		'\t'
 	caracter de nueva línea		'\n' 
