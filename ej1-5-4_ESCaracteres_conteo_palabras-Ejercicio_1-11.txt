@@ -1,0 +1,44 @@
+/* Ejemplo de la Sección 1.5 Entrada y salida de caracteres
+   1.5.4 Conteo de palabras
+   Ejercicio 1-11
+   del Libro del Lenguaje de Programación C, pag. 23
+*/
+
+
+Primer Cuestión: 
+----------------
+¿Cómo Probaría el programa para contar palabras?
+
+Una forma puede ser crear un archivo de texto llamado ej1-5-4_Ejercicio_1-11_test.txt
+que contenga los caracteres que un usuario podría ingresar por teclado, por ejemplo:
+
+Contenido del Archivo: ej1-5-4_Ejercicio_1-11_test.txt
+"
+Hola esta es una prueba
+	 tab 	 tab 	tab 	tab
+1234 5678 91011
+"
+
+Luego se puede ejecutar el programa de la siguiente manera, usando el operador de concatenación "pipe":
+
+ehv80@host:~/Documentos/progc> cat ej1-5-4_Ejercicio_1-11_test.txt | ./ej1-5-4_ESCaracteres_conteo_palabras.out 
+
+Cuya salida en pantalla es:
+"
+Cantidad de líneas ingresadas: 3
+
+Cantidad de palabras ingresadas: 12
+
+Cantidad de caracteres ingresadas: 62
+"
+
+Segunda Cuestión:
+-----------------
+¿Que clase de entrada es la más conveniente para descubrir errores si estos existen?
+
+La entrada más conveniente para descubrir errores puede ser la que se mostró, 
+leyendo desde un archivo por medio del comando anterior, pues se puede variar el contenido
+del archivo: 
+		ej1-5-4_Ejercicio_1-11_test.txt
+
+para ir probando diferentes caracteres de entrada
