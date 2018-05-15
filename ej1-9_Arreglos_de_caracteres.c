@@ -150,7 +150,7 @@
 // Declaración de CONSTANTES SIMBÓLICAS para evitar LOS NÚMEROS MÁGICOS
 #define MAXLINE 1000	// Tamaño máximo de la línea de entrada
 
-// Declaración de los PROTOTIPOS de las FUNCIONES getline y copy
+// Declaración de los PROTOTIPOS de las FUNCIONES getaline y copy
 int getaline( char line[], int maxline );
 
 void copy( char to[], char from[] );
