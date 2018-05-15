@@ -46,7 +46,7 @@
 			la anteriormente más larga se debe guardar en algún lugar.
 			Esto sugiere una segunda función: copy.
 			main() es el programa principal que controla 
-			a las FUNCIONES getline y copy
+			a las FUNCIONES getaline y copy
 
    FUNCIÓN copy		Para copiar la nueva línea más larga a un lugar seguro.
   
