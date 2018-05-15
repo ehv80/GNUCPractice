@@ -160,7 +160,7 @@ int main()
 {
 	// Declaración de Variables
 	int len;		// longitud actual de la línea
-	int max;		// máxima longitud vista hasta el momento
+	int max;		// máxima longitud de una línea vista hasta el momento
 	char line[MAXLINE];	// línea de entrada actual
 	char longest[MAXLINE];	// línea mas larga se guarda aquí
 	
