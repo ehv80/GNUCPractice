@@ -125,7 +125,7 @@
     si encuentra una línea de texto
     que es mayor que su límite MAXLINE?
    
-   La FUNCIÓN getline trabaja en forma segura, 
+   La FUNCIÓN getaline trabaja en forma segura, 
    en ese caso detiene la recopilación cuando el ARREGLO DE CARACTERES
    está lleno, aunque todavía no encuentre un CARACTER NUEVA LÍNEA '\n'.
 
