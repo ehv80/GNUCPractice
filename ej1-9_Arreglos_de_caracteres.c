@@ -109,7 +109,7 @@
    ÍNDICE	  0    1    2    3    4     5
    
    La ESPECIFICACIÓN DEL FORMATO  %s  dentro de  printf()  de  stdio.h
-   espera que el ARGUMENTO correpondiente sea una CADENA DE CARACTERES
+   espera que el ARGUMENTO correspondiente sea una CADENA DE CARACTERES
    representada de este modo; y la FUNCIÓN copy también se basa 
    en el hecho de que su ARGUMENTO DE ENTRADA se termina con '\0',
    y copia este CARACTER NULO '\0' dentro del ARGUMENTO DE SALIDA
