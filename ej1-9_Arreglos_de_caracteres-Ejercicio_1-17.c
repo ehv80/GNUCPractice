@@ -23,7 +23,7 @@ int getaline( char line[], int maxline );
 
 void copy( char to[], char from[] );
 
-// Programa Principal que imprime la línea de entrada más larga
+// Programa Principal
 int main()
 {
 	// Declaración de Variables
