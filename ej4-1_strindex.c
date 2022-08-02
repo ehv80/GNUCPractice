@@ -151,6 +151,7 @@ int strindex( char source[], char searchfor[])
 int getaline( char line[] , int max)
 {
 	int c,i;
+	i = 0;
 	while( --max > 0 && (c = getchar()) != EOF && c != '\n')
 		line[i++] = c;
 	if( c == '\n')
